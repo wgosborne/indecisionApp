@@ -9,6 +9,16 @@ html {
 
 //making it compatible depending on OS
 body {
+    background: $dark-blue;
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
 }
+
+button {
+    cursor: pointer; //changes it when it hovers a clickable button
+}
+
+button:disabled {
+    cursor: default;
+}
+

@@ -1,4 +1,10 @@
+//This is usually done in alphabetical order
 @import './base/settings';
 @import './base/base';
+@import './components/add-option';
+@import './components/_button.scss';
 @import './components/container';
 @import './components/header';
+@import './components/modal';
+@import './components/option';
+@import './components/widget';

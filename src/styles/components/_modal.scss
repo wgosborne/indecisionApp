@@ -1,0 +1,16 @@
+//styling ReactModalPortal because when you inspect it thats what it is called
+.ReactModalPortal > div { // > div means only targets divs that are direct descendants (not children)
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay { // this is the convention when you inspect it
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open { // this is the name of the open when you inspect it
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close { // this is the name of the open when you inspect it
+    opacity: 0;
+}
