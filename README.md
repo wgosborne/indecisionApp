@@ -36,5 +36,6 @@ My favorite places to work on it:
   Directions to run:
   - Clone down the gitHub link
   - open a command promp and navigate into the react-course-projects folder -> indecision-app
-  - run npm install to install all the packages in the packagge.json folder
-  - run yarn run dev-server to host it locally (by the end of the course I should be able to deploy it!!!! :))
+  - run the command 'git checkout master' to switch to master
+  - run 'npm install' to install all the packages in the packagge.json folder
+  - run 'yarn run dev-server' to host it locally (by the end of the course I should be able to deploy it!!!! :))
