@@ -1,0 +1,14 @@
+//11.24.23
+//file starts with an underscore because its a partial
+
+//Sizing: we are using REMs, we learned these in MIS 421
+//Choosing based on how many pixels, getting base 10
+html {
+    font-size: 62.5%;
+}
+
+//making it compatible depending on OS
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
