@@ -7,14 +7,14 @@ import IndecisionApp from './components/IndecisionApp';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
-const Layout = () => {
-    return (
-        <div>
-            <p>Header</p>
-            <p>Footer</p>
-        </div>
-    )
-}
+// const Layout = () => {
+//     return (
+//         <div>
+//             <p>Header</p>
+//             <p>Footer</p>
+//         </div>
+//     )
+// }
 
 ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
 
