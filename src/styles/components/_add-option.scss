@@ -10,6 +10,7 @@
 //Add option
 .add-option {
     display: flex;
+    flex-direction: column;
     padding: $m-size;
 
 }
@@ -20,6 +21,16 @@
     color: $off-white;
     border-bottom: .3rem solid darken($dark-blue, 10%);
     background: $dark-blue;
-    margin-right: $s-size;
+    margin: 0 0 $s-size 0;
     padding: $s-size;
+}
+
+@media (min-width: $desktop-breakpoint) { //css feature for queries. apply these styles at a width of 45 and up
+    .add-option{
+        flex-direction: row;
+    }
+
+    .add-option__input {
+        margin: 0 $s-size 0 0;
+    }
 }

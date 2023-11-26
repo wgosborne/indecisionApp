@@ -1,10 +1,9 @@
 .header {
     background: $off-black;
     color: white;
-    margin-bottom: $xl-size;
+    margin-bottom: $m-size;
     //1.6 above and below, 0 on the sides
     padding: $m-size 0;
-    
 }
 
 //BEM Block element modifyer
@@ -18,4 +17,11 @@
     font-size: $m-size;
     font-weight: 500;
     margin: 0;
+}
+
+@media (min-width: $desktop-breakpoint) { //css feature for queries. apply these styles at a width of 45 and up
+    .header{
+        padding: $xl-size;
+        margin-bottom: $xl-size;
+    }
 }
