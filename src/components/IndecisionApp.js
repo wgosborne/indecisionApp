@@ -76,7 +76,7 @@ class IndecisionApp extends React.Component {
     };
 
     render = () => {
-        const subtitle = 'watch me fuck up your life'
+        const subtitle = '"Indecision is the enemy of progress. Not saying yes to one possibility is saying no to them all." - Michael Haggstrom'
         return(
             <div>
                 <Header  subtitle = {subtitle}/>
