@@ -52,7 +52,6 @@
     "live-server": "^1.2.0",
     "mini-css-extract-plugin": "^2.7.6",
     "react-test-renderer": "15.6.1",
-    "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   }
 }
