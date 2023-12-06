@@ -39,8 +39,7 @@
     "style-loader": "0.18.0",
     "uuid": "^9.0.1",
     "validator": "8.0.0",
-    "webpack": "5.89.0",
-    "webpack-cli": "^5.1.4"
+    "webpack": "5.89.0"
   },
   "devDependencies": {
     "@babel/core": "^7.23.5",
@@ -49,6 +48,7 @@
     "enzyme-adapter-react-15": "1.0.0",
     "enzyme-to-json": "3.0.1",
     "jest": "^29.7.0",
+    "webpack-cli": "^5.1.4",
     "live-server": "^1.2.0",
     "mini-css-extract-plugin": "^2.7.6",
     "react-test-renderer": "15.6.1",
