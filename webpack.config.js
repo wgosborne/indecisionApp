@@ -3,11 +3,16 @@
 const path = require('path');
 
 //entry -> output, module.exports is a node thing
-module.exports = {
+module.exports = (env) => {
+
+    const isProduction = env.production === true;
+
+    return {
     entry: './src/app.js',
     output: {
-        path: path.join(__dirname, 'public'),
-        filename: 'bundle.js'
+        path: path.join(__dirname, 'public', 'dist'),
+        filename: 'bundle.js',
+        publicPath: '/dist/'
     }, //loader below
     module: {
         //rules for when to run the module and what loader
@@ -32,8 +37,10 @@ module.exports = {
 
     //dev-server is generating its own bundle.js file, replaces live server
     devServer: {
-        static: path.join(__dirname, 'public')
+        static: path.join(__dirname, 'public'),
+        historyApiFallback: true
     },
     mode: 'development'
+    }
 };
 
