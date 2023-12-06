@@ -33,7 +33,7 @@ module.exports = (env) => {
     },
     //creating a source map to help find errors and such
     //look at the webpack documentation to find all the tools
-    devtool: 'eval-cheap-module-source-map',
+    devtool: isProduction ? 'source-map' : 'inline-source-map',
 
     //dev-server is generating its own bundle.js file, replaces live server
     devServer: {
